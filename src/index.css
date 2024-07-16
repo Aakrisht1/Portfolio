@@ -1,0 +1,18 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
